@@ -3,7 +3,8 @@ def compute_average(path:str,col_idx:int)-> float:
         data = f.readlines()
     values = []
     for row in data[1:]:
-        val = float(row.split(",")[col_idx])
+        row_values = row.split(",")
+        val = float(row_values[col_idx])
         values.append(val)
     res = sum(values)/len(values)
     return res
