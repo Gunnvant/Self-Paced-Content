@@ -18,9 +18,11 @@ if __name__=="__main__":
     args = parser.parse_args()
     path = args.path
     col_idx = args.col_idx
-    res = compute_average(path,col_idx)
-    print(res)
-    print("Could not compute average")
+    try:
+        res = compute_average(path,col_idx)
+        print(res)
+    except:
+        print("average was not computed")
     if "csv" in path:
         print("The file is comma separated")
     
