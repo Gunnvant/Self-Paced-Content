@@ -37,7 +37,7 @@ sample_size = df[df['ATM Name']=='Mount Road ATM']['Total amount Withdrawn'].sha
 p_value(pop_mean,sample_mean,sample_stdev,sample_size) ### Reject H0, withdrawls have increased
 ```
 
-**Q3.Use the `./data/bank_transactions.csv`. This has daily data on withdrawl activity at 5 ATMs. Compare the average daily withdrawls on Mount Road ATM vs Big Street ATM for year 2015. Do you find them to be statistically 
+**Q3.Use the `./data/bank_transactions.csv`. This has daily data on withdrawl activity at 5 ATMs. Compare the average daily withdrawls on Mount Road ATM vs Big Street ATM for year 2015. Do you find them to be statistically. Use a significance level of 5%
 different?**
 
 **Solution**
