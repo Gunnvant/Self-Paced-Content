@@ -45,4 +45,14 @@ Input variables:
 
 ## Business Problem
 
-The task is to generate a predictive model that can help
+The task is to generate a predictive model that can help in identifying the customers who have a higher chance of conversion.
+
+## Steps involved:
+
+- Data Exploration: Find out which variables are more closely related to the target variable. Also fix any data quality issues such as missing values etc
+
+- Feature Engineering: Create/modify new variables based on the exploratory data analysis
+
+- Model iterations: Run model iterations by experimenting with different predictors etc, also find out the performance of each model 
+
+- Model finalization: Finalize a model based on model performance
