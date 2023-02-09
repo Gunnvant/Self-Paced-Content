@@ -1,0 +1,7 @@
+dbname=""
+user=""
+password=""
+host=""
+port=""
+tablename = "name of table in db where data should be loaded"
+file_path = "path to csv file from which data is to be loaded"
