@@ -32,7 +32,7 @@ One of the reporting view that the business wants to setup is to track how the s
 
 ![](./imgs/task2.2.png)
 
-3. Repeat the analysis given above but this time 
+3. Repeat the analysis given above but this time for region. Generate the percentage contribution of each region to total yearly revenue over years.
 
 ## Task 3
 The business wants to understand which accounts contribute to the bulk of the revenue and the business also wants to see year on year trend on the revenue contribution of each account.
