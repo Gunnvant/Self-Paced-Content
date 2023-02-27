@@ -1,0 +1,6 @@
+dbname_default="postgres"
+dbname_created="dwh"
+user="postgres"
+password="gun125"
+host="localhost"
+port="5432"
