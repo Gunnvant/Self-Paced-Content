@@ -11,7 +11,7 @@ NAME VARCHAR,
 REGION_ID INT,
 primary key (ID),
 constraint SALESREP_FK 
-	foreign key(region_id)
+	foreign key(REGION_ID)
 		references region(ID)
 );
 ''',

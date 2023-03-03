@@ -18,7 +18,48 @@ You need to create a database named `dwh`. Within that database, you need to cre
 
 Make sure that the foreign and primary key relationships are properly modelled based on the ERD diagram given earlier.
 
-You will also need to insert the data into the five tables. You can use the bulk loading ability of `psql` using the `\copy` command or you can use a python driver program to load the data into respective tables.
+You can view the self paced content on bulk loading data, there are detailed videos on how to do bulk upload using `psql` and `\copy`
+
+You will also need to insert the data into the five tables. You can use the bulk loading ability of `psql` using the `\copy` command or you can use a python driver program to load the data into respective tables. Detailed expected schema of the tables is given below:
+
+```shell
+REGION
+- ID (pk)
+- NAME
+
+SALES_REP
+- ID (pk)
+- NAME
+- REGION_ID (fk)(REGION ID)
+
+ACCOUNTS
+- ID (pk)
+- NAME
+- WEBSITE
+- LAT
+- LONG
+- PRIMARY_POC
+- SALES_REP_ID (fk)(SALES_REP ID)
+
+WEB_EVENTS
+- ID (pk)
+- ACCOUNT_ID (fk)(ACCOUNTS ID)
+- OCCURED_AT
+- CHANNEL
+
+ORDERS
+- ID (pk)
+- ACCOUNT_ID (fk)(ACCOUNT ID)
+- OCCURED_AT
+- STANDARD_QTY
+- GLOSS_QTY
+- POSTER_QTY
+- TOTAL
+- STANDARD_AMOUNT_USD
+- GLOSS_AMT_USD
+- POSTER_AMT_USD
+- TOTAL_AMT_USD
+```
 
 **Task 2**
 

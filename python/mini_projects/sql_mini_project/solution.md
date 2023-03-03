@@ -1,13 +1,7 @@
 ## Task 1
 The tables can be loaded using `\copy` command, for this solution we've resorted to using `psycopg2` to create database as well as create tables. We have used the `copy_expert` from `psycopg2` to load the data to the database from the csv files.
 
-The code to load tables is [here](./bulk_load/) you will need to create a python environment with the packages listed in `env.yaml`
-
-Run the command `conda env create -f env.yaml` to create a virtual environment with the desired packages.
-
-Then modify the file `bulk_load/config.py` with the correct values of `default_db`,`user`,`password` etc.
-
-Finally run the command `python main.py` to create database `dwh`, tables and do bulk loading of data.
+The code to load tables is [here](./notebooks/01.ipynb).  
 
 ## Task 2
 
