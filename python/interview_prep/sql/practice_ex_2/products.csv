@@ -1,0 +1,7 @@
+product_id,product_category,product_name
+1,Analytics,Azure Databricks
+2,Analytics,Azure Stream Analytics
+3,Containers,Azure Kubernetes Service
+4,Containers,Azure Service Fabric
+5,Compute,Virtual Machines
+6,Compute,Azure Functions
