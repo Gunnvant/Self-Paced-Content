@@ -8,6 +8,8 @@ The company has chosen to use `postgresql` as sql engine as they plan to migrate
 
 The first task that you need to do before any analysis is done, is to create a database and insert the `csv` files into these tables.
 
+**You can view the self paced content on bulk loading data, there are detailed videos on how to do bulk upload using `psql` and `\copy`**
+
 Following relationship should exist between different tables:
 ![](./imgs/erd.png) 
 
@@ -18,7 +20,7 @@ You need to create a database named `dwh`. Within that database, you need to cre
 
 Make sure that the foreign and primary key relationships are properly modelled based on the ERD diagram given earlier.
 
-You can view the self paced content on bulk loading data, there are detailed videos on how to do bulk upload using `psql` and `\copy`
+**You can view the self paced content on bulk loading data, there are detailed videos on how to do bulk upload using `psql` and `\copy`**
 
 You will also need to insert the data into the five tables. You can use the bulk loading ability of `psql` using the `\copy` command or you can use a python driver program to load the data into respective tables. Detailed expected schema of the tables is given below:
 
@@ -82,3 +84,22 @@ The final table should show revenue share of each account for each year's total 
 
 ![](./imgs/task3.1.png)
 
+
+## Deliverables
+
+We expect you to submit a zipped folder with the following structure:
+
+```shell
+submission
+    - task1
+        - bulk_load.ipynb or bulk_load.sql
+    - task2
+        - task2.sql
+    - task3
+        - task3.sql
+```
+You should have a parent folder called  `submission`. For each of the tasks create a separate folder `task1`, `task2` and `task3`.
+
+- You can do `task1` either using a python driver (this has been explained in self paced content) or using `\copy` command. Either submit a jupyter notebook or an sql file that contains table creation and bulk loading commands
+
+- For `task2` and `task3` submit sql files with relevant code. 
