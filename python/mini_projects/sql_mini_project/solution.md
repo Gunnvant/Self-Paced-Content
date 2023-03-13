@@ -138,3 +138,5 @@ select *,
 dense_rank() over (partition by "year" order by pct_yearly_rev desc) as rev_rank
 from final_table;
 ```
+
+This is a indicative solution. There can be more ways of achieving the same goals. 
