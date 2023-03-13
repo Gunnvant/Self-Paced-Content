@@ -1,6 +1,0 @@
-dbname_default="postgres"
-dbname_created="dwh"
-user="fill user name of db"
-password="fill password for db"
-host="localhost"
-port="5432"
