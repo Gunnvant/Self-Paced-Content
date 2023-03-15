@@ -148,5 +148,7 @@ def dump(path,name,results):
 ## How to submit?
 For `task1`,`task2`,`task3` and `task4` you need to submit separate notebooks. Make your notebooks modular as we will change the paths in the notebooks submitted by you and run the codes again to test your submission.
 
+We encourage you to use github to make this submission. Use the submission structure given below.We further, encourage you to write a good readme for the github repo. You can then show this as some of the projects you've done on github in your resume.
+
 You can follow the submission structure given [here]((./submission_structure/)) 
 
