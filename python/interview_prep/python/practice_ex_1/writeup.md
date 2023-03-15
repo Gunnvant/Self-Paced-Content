@@ -150,5 +150,14 @@ For `task1`,`task2`,`task3` and `task4` you need to submit separate notebooks. M
 
 We encourage you to use github to make this submission. Use the submission structure given below.We further, encourage you to write a good readme for the github repo. You can then show this as some of the projects you've done on github in your resume.
 
+You can submit a text file with link to the github repository. You can view the self paced content on github to create and submit code to your repositories.
+
+Below are some examples of good readme and github project structure:
+
+- [Example Readme](https://github.com/Wittline/uber-expenses-tracking)
+- [Example Readme](https://github.com/JarrodAJ/sec_employee_information_extraction)
+- [Example Readme](https://github.com/Gunnvant/autocomplete_ngrams)
+- [Example Readme](https://github.com/Gunnvant/calendar_parser)
+
 You can follow the submission structure given [here]((./submission_structure/)) 
 
