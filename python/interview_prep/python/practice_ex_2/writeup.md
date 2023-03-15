@@ -47,3 +47,6 @@ Below are some examples of good readme and github project structure:
 - [Example Readme](https://github.com/Gunnvant/autocomplete_ngrams)
 - [Example Readme](https://github.com/Gunnvant/calendar_parser)
 
+## Python Versions and Package Requirements
+
+The python version and package requirements are [here](./env.yaml)

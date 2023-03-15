@@ -161,3 +161,7 @@ Below are some examples of good readme and github project structure:
 
 You can follow the submission structure given [here]((./submission_structure/)) 
 
+
+## Python Versions and Package Requirements
+
+The python version and package requirements are [here](./env.yaml)
