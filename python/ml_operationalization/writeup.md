@@ -29,6 +29,7 @@ A [student notebook](./notebooks/Learner_Notebook.ipynb) has a basic template th
 
 Here is a brief description of the project structure
 
+```
 📦ml_operationalization
  ┣ 📂assets
  ┃ ┣ 📂data
@@ -51,6 +52,7 @@ Here is a brief description of the project structure
  ┃ ┗ 📜train.py
  ┣ 📜env.yaml
  ┗ 📜writeup.md 
+ ```
 
 
  Notebooks contain the three notebooks
