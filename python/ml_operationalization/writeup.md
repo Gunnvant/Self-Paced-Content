@@ -23,7 +23,7 @@ conda activate mlops
 The instructor can start the discussion using [pre coded notebook](./notebooks/Data%20Scientist%20Notebook.ipynb). This has a sample code that a data scientist will generate. In the two days of discussion this notebook needs to be broken into [these scripts](./scripts/)
 
 
-There is an [instructor notebook](./notebooks/D1.-D2ipynb) that can be used by the instructor to prepare the session.
+There is an [instructor notebook](./notebooks/D1-D2.ipynb) that can be used by the instructor to prepare the session.
 
 A [student notebook](./notebooks/Learner_Notebook.ipynb) has a basic template that instructor can help a learner fill up.
 
