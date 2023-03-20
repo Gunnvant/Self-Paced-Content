@@ -33,3 +33,6 @@ One of the product lines the investor is interested in is `Women's clothing stor
 
 ## Task 4
 Another dimension that the investor is interested in is, finding out which product categories are growing since the past 10 years. Can you help them with this task?
+
+## Submission Instructions
+You need to submit your sql queries in as an sql file. Each task should have properly commented code.
