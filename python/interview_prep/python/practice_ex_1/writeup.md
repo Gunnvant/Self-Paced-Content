@@ -47,7 +47,7 @@ After you have generated the data dictionary you need to put the relevant data i
 
 Use the `peter_pan.txt`. Download the file [here](https://drive.google.com/file/d/1D4q06bZ_hSEICxE8j843N4KasLq8YWPq/view?usp=sharing)  to answer the questions. 
 
-a. The number of characters in the file are?
+a. The number of characters in the file are. (Consider whitespaces, semi colons, line breaks etc also as part of character set)?
 
 1. 274394
 2. 274951
@@ -71,14 +71,14 @@ Provide your code here
 your code goes here
 ```
 
-c. Find the index where Chapter II starts?
+c. Find the index where Chapter II starts? (Hint: Represent the text of the book given to you as a python string and find the index in the string.)
 
 Provide your code here
 ```python
 your code goes here
 ```
 
-d. Find the index where Chapter III starts?
+d. Find the index where Chapter III starts? (Hint: Represent the text of the book given to you as a python string and find the index in the string.)
 
 Provide your code here
 ```python
