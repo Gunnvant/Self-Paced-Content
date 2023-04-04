@@ -20,7 +20,20 @@ In order to accomplish this task you can use the following rules:
 3. Any filename that has the phrase `stop-and-search.csv`, pertains to the category `Stop and Search`
 
 **Task 2**
-You have been tasked with generating a csv file out of a json datatset. The location of the dataset is [here](https://data.montgomerycountymd.gov/api/views/v76h-r7br/rows.json?accessType=DOWNLOAD)
+You have been tasked with generating a csv file out of a json datatset. The location of the dataset is [here](https://data.montgomerycountymd.gov/api/views/v76h-r7br/rows.json?accessType=DOWNLOAD). 
+
+You can go to this link, copy the data to a file from here and save the data as `json` file, or you can use the following code snippet to load the data in your python session
+
+
+```python
+import requests
+url = 'https://data.montgomerycountymd.gov/api/views/v76h-r7br/rows.json?accessType=DOWNLOAD'
+
+data = requests.get(url).json()
+```
+
+`data` will be a python dictionary
+
 
 The first thing you need to do is generate the data-dictionary from this json file. This file has a field named `meta`, embedded in this field is the detail on each column. You need to create a csv file which contains the following fields:
 1. Name of the column
