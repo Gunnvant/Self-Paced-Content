@@ -30,7 +30,7 @@ You can use `pd.qcut` to obtain deciles for recency column and create a similar 
 
 ### Task 3
 
-Once you have identified the customers by their recency and how much revenue these customers bring, the next task is to find out within the subset of data identified above, for what ranges of frequency is ~40% of the revenue in the subset realized.
+Once you have identified the customers by their recency and how much revenue these customers bring, the next task is to find out within the subset of data identified above, for what ranges of frequency is ~65% of the revenue in the subset realized.
 
 After you do this task, you should obtain a view as given below:
 
