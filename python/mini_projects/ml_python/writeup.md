@@ -100,6 +100,17 @@ following functions:
 
 Also add logging at appropriate places.
 
+<todo> Description of commands and the functions they will perform
+
+### Rubric
+<todo>
+
+### Sample Readme Format
+<todo>
+
+###
 **Submission Guidelines**
 
 Push your code to a github repository. Write an informative Readme file and submit to us the github link.
+
+<todo> Modifications
