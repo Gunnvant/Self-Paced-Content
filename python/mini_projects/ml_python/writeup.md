@@ -2,7 +2,7 @@
 
 In this mini project you will be working with a dataset about the road accidents in Los Angeles. The data you will be working with is a subset of data present [here](https://www.kaggle.com/datasets/cityofLA/los-angeles-traffic-collision-data)
 
-The aim of this project is to develop a cli application that can be used to query different aspects of this dataset. You are working in a team that consist of data scientists, data analysts and ml engineers. In this project you will be building tools that can be used to team of data scientists and data analysts. Your prime responsibility is to build a python application that can help the team generate meaningful data visualizations and do common queries on the data.
+The aim of this project is to develop a cli application that can be used to query different aspects of this dataset. You are working in a team that consist of data scientists, data analysts and ml engineers. In this project you will be building tools that can be used by team of data scientists and data analysts. Your prime responsibility is to build a python application that can help the team generate meaningful data visualizations and do common queries on the data.
 
 Your application will be a command line app. You will be using the skills you've learn't so far, such as python programming, object oriented programming, working with pandas and numpy as well as creating commandline applications and using unittests.
 
@@ -82,7 +82,7 @@ python -m unittest tests/test_locations.py
 ```
 **Task 5**
 
-Refer to the file `main.py`. This is the final file which will bring together all the classes created in the previous tasks. You
+Refer to the file [`main.py`](main.py). This is the final file which will bring together all the classes created in the previous tasks. You
 will need to generate the cli app in this file by completing the 
 following functions:
 
