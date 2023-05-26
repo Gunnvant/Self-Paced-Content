@@ -2,6 +2,9 @@
 
 In this mini project you will be working with a dataset about the road accidents in Los Angeles. The data you will be working with is a subset of data present [here](https://www.kaggle.com/datasets/cityofLA/los-angeles-traffic-collision-data)
 
+The aim of this project is to develop a cli application that can be used to query different aspects of this dataset. You are working in a team that consist of data scientists, data analysts and ml engineers. In this project you will be building tools that can be used to team of data scientists and data analysts. Your prime responsibility is to build a python application that can help the team generate meaningful data visualizations and do common queries on the data.
+
+Your application will be a command line app. You will be using the skills you've learn't so far, such as python programming, object oriented programming, working with pandas and numpy as well as creating commandline applications and using unittests.
 
 ### Data Description
 
@@ -17,15 +20,30 @@ The data shared with you [here](./data/) contains the following files:
 
 You need to complete the code given in the `src` directory.
 
-**Task 1**:
+
+**Task 1**
+
+Refer to the [file](./src/dq.py) and complete the following methods of the class `DataQuality`
+
+1. `_create_dq_numeric_vars`
+2. `_create_dq_categorical_var`
+3. `create_dq`
+
+Verify if the class works by running the tests in `tests/test_dq.py`
+Use the following command to run the tests:
+
+```shell
+python -m unittest tests/test_dq.py
+```
+
+**Task 2**:
 
 Refer to the [file](./src/incidents.py) and complete the following methods of the class `Incidents`
 
-1. `analyze_area`
-2. `analyze_area_drilldown`
-3. `plot_num_incidents_all`
-4. `find_incidents_area_date_range`
-5. `plot_heatmap_areas`
+1. `num_incidents_area`
+2. `plot_num_incidents_all`
+3. `find_incidents_area_date_range`
+4. `plot_heatmap_areas`
 
 Verify if the class works by running the tests in `tests/test_incident.py`
 Use the following command to run the tests:
@@ -34,7 +52,7 @@ Use the following command to run the tests:
 python -m unittest tests/test_incident.py
 ```
 
-**Task 2**
+**Task 3**
 Refer to the [file](src/victims.py) and complete the following methods for the class `Victims` 
 
 1. `get_avg_age`
@@ -49,7 +67,7 @@ Use the following command to run the tests:
 python -m unittest tests/test_victims.py
 ```
 
-**Task3**
+**Task4**
 
 Refer to the [file](./src/locations.py) and complete the following methods in `Location` class
 
@@ -62,7 +80,25 @@ Use the following command to run the tests:
 ```shell
 python -m unittest tests/test_locations.py
 ```
+**Task 5**
 
+Refer to the file `main.py`. This is the final file which will bring together all the classes created in the previous tasks. You
+will need to generate the cli app in this file by completing the 
+following functions:
+
+1. `generate_dq_report`
+2. `find_incidents`
+3. `create_plot_incidents`
+4. `incidents_area_date_range`
+5. `plot_heatmapAreas`
+6. `find_avg_age`
+7. `plot_avgAge`
+8. `plot_distAge`
+9. `plot_yearArea`
+10. `compute_avgDist`
+11. `plot_avgDist`
+
+Also add logging at appropriate places.
 
 **Submission Guidelines**
 

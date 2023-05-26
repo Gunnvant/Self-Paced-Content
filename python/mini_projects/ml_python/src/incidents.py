@@ -8,20 +8,17 @@ class Incidents():
         self.path_incidents = path_incidents
         self.path_area = path_area
 
-    def analyze_area(self)->dict:
+    def num_incidents_area(self,start_date:str|None,end_date:str|None)->dict:
         '''
         This should return a dict of the following form:
         {'area_name':num_incidents,'area_name':num_incidents}
+        If the start_date and end_date is None then the dict for the
+        while time range should be returned. The date is in dd/mm/yyyy format
+        In case either of them is None then a meaningful exception
+        should be raised. Ref: https://www.w3schools.com/python/ref_keyword_raise.asp
         '''
         pass
-    def analyze_area_drilldown(self,month:int,year:int)->dict:
-        '''
-        This will take year and month as an input and will return the dict 
-        of the following form
-        {'area_name':num_incidents,'area_name':num_incidents}
-        for a given month and year.
-        '''
-        pass
+
     def plot_num_incidents_all(self):
         '''
         This should create and save a plot named './plots/trend_incidents.png'

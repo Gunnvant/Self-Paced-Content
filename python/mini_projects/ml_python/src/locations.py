@@ -28,6 +28,7 @@ class Location():
     def plot_avg_distance_areas(self,year:str):
         '''
         Plot the avg distance between incidents for a given year across all the 
-        areas. Plot to be saved in ./plots/avg_distance.png
+        areas. Plot to be saved in ./plots/avg_distance_{area_name}.png
+        Year should be in yyyy format
         '''
         pass
