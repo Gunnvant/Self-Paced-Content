@@ -1,0 +1,15 @@
+part,finish_date,assembly_step
+battery,01/22/2022 00:00:00,1
+battery,02/22/2022 00:00:00,2
+battery,03/22/2022 00:00:00,3
+bumper,01/22/2022 00:00:00,1
+bumper,02/22/2022 00:00:00,2
+bumper,NULL,3
+bumper,NULL,4
+door,01/22/2022 00:00:00,1
+door,02/22/2022 00:00:00,2
+engine,01/01/2022 00:00:00,1
+engine,01/25/2022 00:00:00,2
+engine,02/28/2022 00:00:00,3
+engine,04/01/2022 00:00:00,4
+engine,NULL,5
