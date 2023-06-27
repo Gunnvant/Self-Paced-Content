@@ -1,81 +1,6 @@
 ## LO
 - Use select, groupby, date, string functions to translate a business problem into an sql query.
 
-## Problem 1 [link](https://datalemur.com/questions/laptop-mobile-viewership)
-Given a table of candidates and their skills, you're tasked with finding the candidates best suited for an open Data Science job. You want to find candidates who are proficient in Python, Tableau, and PostgreSQL.
-
-Write a query to list the candidates who possess all of the required skills for the job. Sort the output by candidate ID in ascending order.
-
-**Assumption:**
-
-There are no duplicates in the candidates table.
-
-**candidates Table:**
-
-| Column Name  | Type    |
-| :----------- | :------ |
-| candidate_id | integer |
-| skill        | varchar |
-
-**candidates Example Input:**
-
-| candidate_id | skill      |
-| :----------- | :--------- |
-| 123          | Python     |
-| 123          | Tableau    |
-| 123          | PostgreSQL |
-| 234          | R          |
-| 234          | PowerBI    |
-| 234          | SQL Server |
-| 345          | Python     |
-| 345          | Tableau    |
-
-**Example Output:**
-
-| candidate_id |
-| :----------- |
-| 123          |
-
-Explanation
-Candidate 123 is displayed because they have Python, Tableau, and PostgreSQL skills. 345 isn't included in the output because they're missing one of the required skills: PostgreSQL.
-
-The dataset you are querying against may have different input & output - this is just an example!
-
-## Problem 2 [link](https://datalemur.com/questions/laptop-mobile-viewership)
-
-Write a query that calculates the total viewership for laptops and mobile devices where mobile is defined as the sum of tablet and phone viewership. Output the total viewership for laptops as laptop_reviews and the total viewership for mobile devices as mobile_views.
-
-Effective 15 April 2023, the solution has been updated with a more concise and easy-to-understand approach.
-
-**viewership Table**
-
-| Column Name | Type                                 |
-| :---------- | :----------------------------------- |
-| user_id     | integer                              |
-| device_type | string ('laptop', 'tablet', 'phone') |
-| view_time   | timestamp                            |
-
-**viewership Example Input**
-
-| user_id | device_type | view_time           |
-| :------ | :---------- | :------------------ |
-| 123     | tablet      | 01/02/2022 00:00:00 |
-| 125     | laptop      | 01/07/2022 00:00:00 |
-| 128     | laptop      | 02/09/2022 00:00:00 |
-| 129     | phone       | 02/09/2022 00:00:00 |
-| 145     | tablet      | 02/24/2022 00:00:00 |
-
-**Example Output**
-
-| laptop_views | mobile_views |
-| :----------- | :----------- |
-| 2            | 3            |
-
-Explanation
-Based on the example input, there are a total of 2 laptop views and 3 mobile views.
-
-The dataset you are querying against may have different input & output - this is just an example!
-
 ## P3
 Count the number of movies that Abigail Breslin nominated for oscar
 
@@ -200,6 +125,7 @@ No two users have sent the same number of messages in August 2022.
 | :-------- | :------------ |
 | 3601      | 2             |
 | 4500      | 1             |
+
 
 ## p8 [link](https://datalemur.com/questions/sql-avg-review-ratings)
 
