@@ -1,0 +1,13 @@
+Branch,City,Customer Type,Gender,ID
+A,Yangon,Member,Female,AYMF
+A,Yangon,Member,Male,AYMM
+A,Yangon,Normal,Female,AYNF
+A,Yangon,Normal,Male,AYNM
+B,Mandalay,Member,Female,BMMF
+B,Mandalay,Member,Male,BMMM
+B,Mandalay,Normal,Female,BMNF
+B,Mandalay,Normal,Male,BMNM
+C,Naypyitaw,Member,Female,CNMF
+C,Naypyitaw,Member,Male,CNMM
+C,Naypyitaw,Normal,Female,CNNF
+C,Naypyitaw,Normal,Male,CNNM
